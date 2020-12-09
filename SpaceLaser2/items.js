@@ -20,8 +20,8 @@ function targetPointUpdate() {
   text('Score: ' + catchCount, 100, 50)
   //console.log('level:'+level);
   
- l = level - 1
- text('Level: ' + l, 100, 100);//for debugging purposes
+//  l = level - 1
+//  text('Level: ' + l, 100, 100);//for debugging purposes
 
   for (var j = 0; j < 7; j++) {
     if (catchCount === targetScore[j]) {
